@@ -20,5 +20,5 @@ from players import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('champ/', views.hockey_show),
+    path('', views.hockey_show),
 ]
