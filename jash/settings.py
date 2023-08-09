@@ -79,9 +79,11 @@ WSGI_APPLICATION = 'jash.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abc',
-        'USER': 'root',
-        'PASSWORD': '12345',
+        'NAME': 'jashunited',
+        'USER': 'tanay',
+        'PASSWORD': 'admin123',
+        'HOST': 'jashplayers.c1lfu3fs3ues.eu-north-1.rds.amazonaws.com',
+        'PORT': 3306
     }
 }
 
